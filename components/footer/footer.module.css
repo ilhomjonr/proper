@@ -10,6 +10,12 @@
   display: flex;
   justify-content: space-between;
 }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .cent {
   display: flex;
   justify-content: center;
@@ -35,7 +41,6 @@
 .src {
   display: flex;
   align-items: flex-end;
-  flex-direction: column;
 }
 .footnum {
   display: flex;
@@ -87,9 +92,31 @@
     align-items: center;
     justify-content: space-around;
   }
+  .foot_social {
+    gap: 10px;
+  }
+  .cent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footnum > a,
+  .footnum > p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .foot_link {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 @media (max-width: 425px) {
   .foot_conta {
     flex-direction: column;
+
+    border: 1px solid #291d4c;
   }
 }

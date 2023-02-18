@@ -14,14 +14,7 @@ const Header = () => {
             width={186}
             height={76}
           />
-          <ul className={styles.con}>
-            {links.map((name) => (
-              <div className={styles.headconr}>
-                <span className={styles.dot}></span>
-                <li className={styles.nav_link}>{name}</li>
-              </div>
-            ))}
-          </ul>
+          <ul className={styles.con}></ul>
           <div className={styles.cent}>
             <div className={`${styles.current_lang} ${styles.nav_link}`}>
               Ru{chevron}

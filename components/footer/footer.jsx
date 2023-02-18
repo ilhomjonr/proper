@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import { phone } from "../../public/icons";
 import { location } from "../../public/icons";
+import { Key } from "react";
 
 import { insta } from "../../public/icons";
 import { youtube } from "../../public/icons";
@@ -22,20 +23,11 @@ const footer = () => {
               height={76}
             />
             <div className={styles.foot_conta}>
-              {/* {links.map((name) => (
-                <div className={styles.footlink}>
-                  <div className={styles.foot_link}>
-                    {linkid.map((linkid) => (
-                      <a href={linkid}> {name}</a>
-                    ))}
-                  </div>
-                </div>
-              ))} */}
               {navLinks.map((link, index) => {
                 return (
-                  <ul className={styles.foot_conta}>
+                  <ul key={index} className={styles.foot_conta}>
                     <Link href={link.path}>
-                      <li key={index}>{link.name}</li>
+                      <li>{link.name}</li>
                     </Link>
                   </ul>
                 );
@@ -68,7 +60,7 @@ const footer = () => {
         </div>
         <div className={styles.foot_cont_mobile}>
           <div className={styles.foot_cent}>
-            <Image  
+            <Image
               src="/logoprop.png"
               alt="Picture of the author"
               width={186}
@@ -80,21 +72,12 @@ const footer = () => {
               <a href="#">{youtube}</a>
             </div>
           </div>
-          <div className={styles.foot_conta}>
-            {/* {links.map((name) => (
-                <div className={styles.footlink}>
-                  <div className={styles.foot_link}>
-                    {linkid.map((linkid) => (
-                      <a href={linkid}> {name}</a>
-                    ))}
-                  </div>
-                </div>
-              ))} */}
+          <div className={styles.foot_consaas}>
             {navLinks.map((link, index) => {
               return (
-                <ul className={styles.foot_conta}>
+                <ul key={index} className={styles.foot_conta}>
                   <Link href={link.path}>
-                    <li key={index}>{link.name}</li>
+                    <li className={styles.foot_link}>{link.name}</li>
                   </Link>
                 </ul>
               );
@@ -106,17 +89,23 @@ const footer = () => {
               <a href="tel:+99899 999 99 99">{phone}+99899 999 99 99</a>
               <p> {location} г.Ташкент, Узбекситан</p>
             </div>{" "}
-            <p className={`${styles.foot_link} ${styles.colorwhite} `}>
-              Авторское право © 2023 Proper. Все права защищены.
-            </p>
-            <div className={styles.cent}>
-              <p>Designed by </p>
-              <Image
-                src="/logomazmoon.png"
-                alt="Picture of the author"
-                width={45}
-                height={32}
-              />
+            <div>
+              {" "}
+              <p className={`${styles.foot_link} ${styles.colorwhite} `}>
+                Авторское право © 2023 Proper.
+              </p>{" "}
+              <p className={`${styles.foot_link} ${styles.colorwhite} `}>
+                Все права защищены.
+              </p>
+              <div className={styles.center}>
+                <p className={styles.foot_link}>Designed by </p>
+                <Image
+                  src="/logomazmoon.png"
+                  alt="Picture of the author"
+                  width={45}
+                  height={32}
+                />
+              </div>
             </div>
           </div>
         </div>
