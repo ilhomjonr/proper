@@ -1,0 +1,147 @@
+.cs {
+  background: #1a1233;
+  padding-bottom: 0px;
+  opacity: 0.8;
+  border-radius: 40px;
+}
+.header_h1 {
+  font-family: var(--ttregular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+.headh,
+.headh > span {
+  font-family: var(--ttmedium);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 100px;
+  color: white;
+}
+.headh {
+  margin-bottom: 140px;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+  padding-bottom: 0px;
+}
+.btn {
+  display: flex;
+  font-family: var(--ttbold);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 60px;
+  gap: 10px;
+
+  border-radius: 32px;
+}
+.headbtns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+.btnleft {
+  background: #ffffff;
+  color: linear-gradient(262.1deg, #3686bf -40.82%, #ae00d8 100%);
+}
+.btnright {
+  border: 2px solid white;
+  background-color: none;
+  background: #1a1233;
+  opacity: 0.8;
+  border-radius: 40px;
+}
+.pink {
+  background: linear-gradient(262.1deg, #3686bf -40.82%, #ae00d8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.cont_mobile {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header_right > img {
+  width: 100%;
+  height: auto;
+}
+.header_right {
+  width: 100%;
+  max-width: 800px;
+  max-height: 800px;
+}
+.headimage {
+  width: 100%;
+}
+.headimage > img {
+  width: 100%;
+}
+@media (max-width: 1440px) {
+  .header_h1 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .headh,
+  .headh > span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .headbtns {
+    flex-direction: column;
+  }
+  .btn {
+    padding: 20px 100px;
+    gap: 16px;
+  }
+  .cs {
+    margin-bottom: 24px;
+    padding: 24px 16px;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .cont_mobile {
+    display: flex;
+  }
+  .cont {
+    display: none;
+  }
+  .header_h1 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .headh,
+  .headh > span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .headbtns {
+    flex-direction: column;
+  }
+  .btn {
+    padding: 20px 100px;
+    gap: 16px;
+  }
+  .cs {
+    margin-bottom: 24px;
+    padding: 24px 16px;
+    padding-bottom: 0px;
+  }
+}
