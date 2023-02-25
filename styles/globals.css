@@ -22,13 +22,31 @@
   font-family: "extabold";
   src: url(../public/fonts/ttneu/ttfamily/tt_extrabold.ttf);
 }
-
+@font-face {
+  font-family: "inter_regular";
+  src: url(../public/fonts/ttinterface/FontsFree-Net-TTInterfaces-Regular.ttf);
+}
+@font-face {
+  font-family: "ttinterbold";
+  src: url(../public/fonts/ttinterfaces/TTInterfaces-Bold.ttf);
+}
+@font-face {
+  font-family: "ttintersemibold";
+  src: url(../public/fonts/ttinterfaces/TTInterfaces-DemiBold.ttf);
+}
+@font-face {
+  font-family: "ttintermedium";
+  src: url(../public/fonts/ttinterfaces/TTInterfaces-Medium.ttf);
+}
 :root {
   --ttregular: "ttregular";
   --ttmedium: "medium";
   --ttbold: "bold";
   --ttdemibold: "demibold";
   --ttlight: "light";
+  --ttinter_refular: "inter_regular";
+  --ttintersemibold: "ttintersemibold";
+  --ttintermedium: "ttintermedium";
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -77,6 +95,50 @@
   max-width: 1776px;
   align-items: center;
 }
+.h1a {
+  font-family: var(--ttdemibold);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+}
+.btn {
+  display: flex;
+  font-family: var(--ttbold);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 60px;
+  gap: 10px;
+  background-color: white !important;
+
+  background: #ffffff !important;
+  border-radius: 32px;
+}
+.pinkp {
+  background: linear-gradient(262.1deg, #3686bf -40.82%, #ae00d8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  .h1a {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .btn {
+    padding: 20px 100px;
+    gap: 16px;
+  }
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -123,8 +185,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(#020105)) rgb(#020105);
+  background: #020105;
 }
 
 a {

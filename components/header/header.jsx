@@ -18,7 +18,7 @@ const Header = () => {
     setIsLoading(true);
     setIsClicked(false);
   }, [router.locale]);
-
+  const [IsActive, setIsActive] = useState(false);
   return (
     <>
       <header>

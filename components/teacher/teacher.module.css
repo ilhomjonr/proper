@@ -1,0 +1,94 @@
+.teacher_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.teacher_desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+
+  padding: 40px;
+
+  background: #1a1233;
+  border-radius: 40px;
+}
+.teacher {
+  font-family: var(--ttintersemibold);
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 10px 24px;
+  text-transform: uppercase;
+  background: #ffffff;
+  border-radius: 40px;
+  color: black;
+}
+.desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  font-family: var(--ttregular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.teachers_right {
+  position: relative;
+
+  background: #1a1233;
+  border-radius: 40px;
+  padding: 0 24px;
+}
+.teacher_img {
+  width: 528px;
+}
+.teacher_img > img {
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.teacher_name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.teacher_bt_h {
+  font-family: var(--ttdemibold);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+}
+.profession {
+  font-family: var(--ttinter_regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #d7d1e7;
+}
+
+.linearbgc {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(262.1deg, #3686bf -40.82%, #ae00d8 100%);
+  opacity: 0.56;
+  filter: blur(87px);
+  border-radius: 16px;
+}

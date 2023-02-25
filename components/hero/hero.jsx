@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           <div className={styles.header_right}>
             <Image
-              src="/media/header.png"
+              src="/media/hero.png"
               alt="Picture of the author"
               width={762}
               height={800}
