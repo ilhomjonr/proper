@@ -4,7 +4,6 @@
   gap: 24px;
 }
 .tariffPlan {
-  border-radius: 4px;
   padding: 32px 25px;
   text-align: center;
   background: #120c22;
@@ -13,7 +12,11 @@
 
   flex-direction: column;
 
-  width: 476px;
+  max-width: 476px;
+  width: 100%;
+}
+.tariffPlan:hover {
+  background: #1a1233;
 }
 
 .name {
@@ -88,6 +91,22 @@
   justify-content: flex-start;
   gap: 4px;
   margin: 32px 0;
+}
+.tariffPlan:hover .sale > button {
+  background: linear-gradient(
+    263.67deg,
+    #ed2f2f 1.4%,
+    #cfab31 101.03%,
+    #56f266 204.89%
+  );
+}
+.tariffPlan:hover .sale > svg path {
+  background: linear-gradient(
+    263.67deg,
+    #ed2f2f 1.4%,
+    #cfab31 101.03%,
+    #56f266 204.89%
+  ) !important;
 }
 .sale_percent {
   font-family: var(--ttinterregular);

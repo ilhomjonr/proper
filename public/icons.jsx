@@ -24,21 +24,21 @@ export const student = (
     <path
       d="M4.87329 7.70927L10.2262 5.19972C11.363 4.66676 12.637 4.66676 13.7738 5.19972L19.1267 7.70931C20.2911 8.25519 20.2911 10.1448 19.1267 10.6907L13.7738 13.2003C12.637 13.7332 11.3631 13.7332 10.2263 13.2003L6.40001 11.4064"
       stroke="white"
-      stroke-width="1.5"
-      stroke-linecap="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
     />
     <path
       d="M4.40039 14.3998V12.1099C4.40039 11.0865 4.40039 10.5748 4.66464 10.1741C4.9289 9.7733 5.39922 9.57174 6.33985 9.16861L7.20039 8.7998"
       stroke="white"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M17.6004 11.5996V15.6999C17.6004 16.5064 17.1976 17.2614 16.4921 17.6521C15.3174 18.3026 13.4372 19.1996 12.0004 19.1996C10.5636 19.1996 8.68335 18.3026 7.50866 17.6521C6.80319 17.2614 6.40039 16.5064 6.40039 15.6999V11.5996"
       stroke="white"
-      stroke-width="1.5"
-      stroke-linecap="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
     />
   </svg>
 );
@@ -53,10 +53,10 @@ export const phone = (
     <path
       d="M17.1827 1.63351C22.256 1.63351 26.368 5.74551 26.368 10.8188M17.1827 6.3535C19.648 6.3535 21.648 8.35217 21.648 10.8188M10.808 17.1535C12.008 18.3042 13.4147 19.2402 14.9693 19.9042L15.6613 20.1988L17.788 18.0388C18.316 17.5028 19.08 17.2708 19.8173 17.4255L24.9693 18.5042C25.8413 18.6895 26.464 19.4588 26.464 20.3495V24.0588C26.464 25.3855 25.3893 26.4602 24.0627 26.4602H22.9227C17.6773 26.4602 12.5013 24.7228 8.58667 21.2322C8.264 20.9455 7.95067 20.6482 7.64533 20.3442L7.69466 20.3935C7.38933 20.0882 7.09333 19.7748 6.80666 19.4522C3.31466 15.5388 1.57733 10.3628 1.57733 5.1175V3.9775C1.57733 2.65084 2.652 1.57617 3.97867 1.57617H7.688C8.57866 1.57617 9.348 2.19884 9.53333 3.07084L10.6133 8.22284C10.7667 8.95884 10.536 9.72417 10 10.2522L7.84 12.3788L8.13466 13.0708C8.79866 14.6242 9.656 15.9535 10.808 17.1535Z"
       stroke="white"
-      stroke-width="1.5"
-      stroke-miterlimit="10"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -71,18 +71,18 @@ export const location = (
     <path
       d="M15.9973 28.4427C15.9973 28.4427 5.64533 22.2227 5.64533 13.9254C5.64533 8.19735 10.288 3.55469 16.016 3.55469C21.744 3.55469 26.3867 8.19735 26.3867 13.9254C26.3867 22.2227 15.9973 28.4427 15.9973 28.4427Z"
       stroke="white"
-      stroke-width="1.5"
-      stroke-miterlimit="10"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M16.016 18.0747C18.3069 18.0747 20.164 16.2176 20.164 13.9267C20.164 11.6358 18.3069 9.77869 16.016 9.77869C13.7251 9.77869 11.868 11.6358 11.868 13.9267C11.868 16.2176 13.7251 18.0747 16.016 18.0747Z"
       stroke="white"
-      stroke-width="1.5"
-      stroke-miterlimit="10"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -95,8 +95,8 @@ export const insta = (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M7 2C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2H7ZM18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7ZM17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12ZM12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
       fill="url(#paint0_linear_690_1653)"
     />
@@ -109,8 +109,8 @@ export const insta = (
         y2="6.36341"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3686BF" />
-        <stop offset="1" stop-color="#AE00D8" />
+        <stop stopColor="#3686BF" />
+        <stop offset="1" stopColor="#AE00D8" />
       </linearGradient>
     </defs>
   </svg>
@@ -136,8 +136,8 @@ export const youtube = (
         y2="10.8616"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3686BF" />
-        <stop offset="1" stop-color="#AE00D8" />
+        <stop stopColor="#3686BF" />
+        <stop offset="1" stopColor="#AE00D8" />
       </linearGradient>
     </defs>
   </svg>
@@ -163,15 +163,15 @@ export const telegram = (
         y2="8.35619"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3686BF" />
-        <stop offset="1" stop-color="#AE00D8" />
+        <stop stopColor="#3686BF" />
+        <stop offset="1" stopColor="#AE00D8" />
       </linearGradient>
     </defs>
   </svg>
 );
 export const applicantion = (
   <svg
-    color="currentColor"
+    color="currentColorw"
     width="22"
     height="22"
     viewBox="0 0 22 22"
@@ -179,8 +179,8 @@ export const applicantion = (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M1.75 5C1.75 3.20507 3.20507 1.75 5 1.75H11C11.4142 1.75 11.75 1.41421 11.75 1C11.75 0.585786 11.4142 0.25 11 0.25H5C2.37665 0.25 0.25 2.37665 0.25 5V17C0.25 19.6234 2.37665 21.75 5 21.75H17C19.6234 21.75 21.75 19.6234 21.75 17V11C21.75 10.5858 21.4142 10.25 21 10.25C20.5858 10.25 20.25 10.5858 20.25 11V17C20.25 18.7949 18.7949 20.25 17 20.25H5C3.20507 20.25 1.75 18.7949 1.75 17V5ZM15.419 1.67708C16.3218 0.774305 17.7855 0.774305 18.6883 1.67708L20.3229 3.31171C21.2257 4.21449 21.2257 5.67818 20.3229 6.58096L18.8736 8.03028C18.7598 7.97394 18.6401 7.91302 18.516 7.84767C17.6806 7.40786 16.6892 6.79057 15.9493 6.05069C15.2095 5.31082 14.5922 4.31945 14.1524 3.48403C14.087 3.35989 14.0261 3.24018 13.9697 3.12639L15.419 1.67708ZM14.8887 7.11135C15.7642 7.98687 16.8777 8.67594 17.7595 9.14441L12.06 14.8438C11.7064 15.1975 11.2475 15.4269 10.7523 15.4977L7.31963 15.9881C6.5568 16.097 5.90295 15.4432 6.01193 14.6804L6.50231 11.2477C6.57305 10.7525 6.80248 10.2936 7.15616 9.93996L12.8556 4.24053C13.3241 5.12234 14.0131 6.23582 14.8887 7.11135Z"
       fill="url(#paint0_linear_851_3074)"
     />
@@ -193,8 +193,8 @@ export const applicantion = (
         y2="4.94067"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3686BF" />
-        <stop offset="1" stop-color="#AE00D8" />
+        <stop stopColor="#3686BF" />
+        <stop offset="1" stopColor="#AE00D8" />
       </linearGradient>
     </defs>
   </svg>
@@ -209,8 +209,8 @@ export const user = (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M31.7446 47.7554C31.7446 49.7344 32.0931 51.6321 32.7319 53.3904C30.8846 53.7897 28.9668 54 27 54C12.0883 54 0 41.9117 0 27C0 12.0883 12.0883 0 27 0C41.9117 0 54 12.0883 54 27C54 28.7489 53.8337 30.4591 53.5161 32.1154C51.8608 31.5577 50.088 31.2554 48.2446 31.2554C39.1319 31.2554 31.7446 38.6427 31.7446 47.7554ZM27.0001 35.25C22.6481 35.25 18.5648 36.3713 15.0164 38.339C13.9296 38.9416 12.5601 38.5492 11.9575 37.4625C11.3549 36.3757 11.7473 35.0062 12.8341 34.4036C17.0332 32.0751 21.8653 30.75 27.0001 30.75C28.0969 30.75 29.1803 30.8105 30.2473 30.9284C31.4824 31.0649 32.373 32.1769 32.2364 33.412C32.0999 34.6471 30.9879 35.5377 29.7528 35.4012C28.8498 35.3013 27.9313 35.25 27.0001 35.25ZM27 9C31.9706 9 36 13.0294 36 18C36 22.9706 31.9706 27 27 27C22.0294 27 18 22.9706 18 18C18 13.0294 22.0294 9 27 9ZM60 48C60 42.8448 56.7493 38.4489 52.1858 36.7502C50.8826 36.2651 49.4722 36 48 36C41.3726 36 36 41.3726 36 48C36 49.4722 36.2651 50.8826 36.7502 52.1858C38.4489 56.7493 42.8448 60 48 60C54.6274 60 60 54.6274 60 48ZM50.25 42C50.25 40.7574 49.2426 39.75 48 39.75C46.7574 39.75 45.75 40.7574 45.75 42V45.75H42C40.7574 45.75 39.75 46.7574 39.75 48C39.75 49.2426 40.7574 50.25 42 50.25H45.75V54C45.75 55.2426 46.7574 56.25 48 56.25C49.2426 56.25 50.25 55.2426 50.25 54V50.25H54C55.2426 50.25 56.25 49.2426 56.25 48C56.25 46.7574 55.2426 45.75 54 45.75H50.25V42Z"
       fill="white"
     />
@@ -225,8 +225,8 @@ export const tick = (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M18 2H6C3.79086 2 2 3.79086 2 6V18C2 20.2091 3.79086 22 6 22H18C20.2091 22 22 20.2091 22 18V6C22 3.79086 20.2091 2 18 2ZM16.592 9.46049C16.8463 9.13353 16.7874 8.66232 16.4605 8.40802C16.1335 8.15372 15.6623 8.21262 15.408 8.53958L11.401 13.6914C11.3119 13.806 11.1443 13.8209 11.0364 13.7238L8.50173 11.4426C8.19385 11.1655 7.71963 11.1904 7.44254 11.4983C7.16544 11.8062 7.1904 12.2804 7.49828 12.5575L10.033 14.8387C10.7881 15.5183 11.9613 15.4143 12.585 14.6123L16.592 9.46049Z"
       fill="url(#paint0_linear_713_2130)"
     />
@@ -239,8 +239,8 @@ export const tick = (
         y2="6.36341"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3686BF" />
-        <stop offset="1" stop-color="#AE00D8" />
+        <stop stopColor="#3686BF" />
+        <stop offset="1" stopColor="#AE00D8" />
       </linearGradient>
     </defs>
   </svg>
@@ -256,15 +256,16 @@ export const down_right = (
     <path
       d="M22.292 11.5041V22.2761H11.5187M9.73999 9.72412L22.276 22.2601"
       stroke="white"
-      stroke-width="1.5"
-      stroke-miterlimit="10"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
 export const gift = (
   <svg
+    stroke="currentColor"
     width="40"
     height="40"
     viewBox="0 0 40 40"
@@ -274,10 +275,10 @@ export const gift = (
     <path
       d="M20.0017 35.5535V13.3335M8.88834 24.4435H31.1117M20 13.3352H27.5833C29.0733 13.3352 30.4017 12.3985 30.9033 10.9952C31.7233 8.70016 30.0217 6.28516 27.5833 6.28516C24.545 6.28516 21.835 8.19516 20.8133 11.0568L20 13.3352ZM20 13.3352H12.4167C10.9267 13.3352 9.59834 12.3985 9.09667 10.9952C8.27834 8.69849 9.98 6.28516 12.4167 6.28516C15.455 6.28516 18.165 8.19516 19.1867 11.0568L20 13.3352ZM26.1117 35.5552H13.8883C11.1267 35.5552 8.88834 33.3168 8.88834 30.5552V18.3335C8.88834 15.5718 11.1267 13.3335 13.8883 13.3335H26.11C28.8717 13.3335 31.11 15.5718 31.11 18.3335V30.5552C31.1117 33.3168 28.8733 35.5552 26.1117 35.5552Z"
       stroke="url(#paint0_linear_714_2320)"
-      stroke-width="1.5"
-      stroke-miterlimit="10"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <defs>
       <linearGradient
@@ -288,8 +289,8 @@ export const gift = (
         y2="9.99605"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3686BF" />
-        <stop offset="1" stop-color="#AE00D8" />
+        <stop stopColor="#3686BF" />
+        <stop offset="1" stopColor="#AE00D8" />
       </linearGradient>
     </defs>
   </svg>

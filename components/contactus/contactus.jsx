@@ -3,10 +3,19 @@ import styles from "./contactus.module.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import Image from "next/image";
 import { applicantion } from "public/icons";
+import IMask from "imask";
+import { useRef } from "react";
+import { useEffect } from "react";
 const ContactUs = () => {
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const [isHuman, setIsHuman] = useState(false);
+  const phoneInputRef = useRef(null);
+  useEffect(() => {
+    const phoneMask = IMask(phoneInputRef.current, {
+      mask: "+{998}(00)000-00-00",
+    });
+  }, []);
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -49,25 +58,25 @@ const ContactUs = () => {
                 type="text"
                 id="name"
                 value={name}
-                placeholder="John Wihck *"
+                placeholder={`John Wihck`}
                 onChange={handleNameChange}
-                className={styles.input_place}
+                className={`${styles.input_place} ${styles.nameinplace}`}
               />
-
               <input
-                type="number"
-                id="number"
-                value={number}
-                onChange={handleNumberChange}
+                type="tel"
                 placeholder="+998 (--) --- -- --"
                 className={styles.input_place}
+                onChange={handleNumberChange}
+                ref={phoneInputRef}
               />
-
+              /*imask react */
               <div className={styles.sendbtn}>
+
+              
                 <ReCAPTCHA
                   sitekey="6LdMUrEkAAAAAFh3HZgk4IOKZuVsgBXBiXn3yRsy"
                   onChange={handleRecaptchaChange}
-                />{" "}
+                />
                 <button type="submit" className={styles.btn}>
                   {applicantion}
                   Отправить

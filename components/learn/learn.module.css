@@ -43,10 +43,41 @@
   align-items: baseline;
   justify-content: center;
   flex-direction: column;
-  padding: 60px;
+  padding: 40px;
   background: #1a1233;
   border-radius: 40px;
   gap: 40px;
+  z-index: 9;
+}
+.modul_wrap {
+  position: relative;
+  z-index: 999;
+}
+.modul_main::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+
+  width: 95%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -24px;
+  border: 1px solid #1a1233;
+  border-radius: 40px;
+}
+.modul_main::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+
+  width: 90%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -48px;
+  border: 1px solid #1a1233;
+  border-radius: 40px;
 }
 .learn_main {
   display: flex;

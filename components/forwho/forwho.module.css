@@ -75,6 +75,18 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  font-family: (--ttbold);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
 }
 .border1 {
   border: 1px solid #ae00d8;

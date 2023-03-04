@@ -1,7 +1,6 @@
 .teacher_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
   gap: 24px;
 }
 .teacher_desc {
@@ -44,18 +43,22 @@
 
 .teachers_right {
   position: relative;
-
   background: #1a1233;
   border-radius: 40px;
   padding: 0 24px;
+  overflow: hidden;
 }
+
 .teacher_img {
   width: 528px;
+  position: relative;
+  z-index: 2;
 }
 .teacher_img > img {
   width: 100%;
+  position: relative;
   object-fit: cover;
-  z-index: 0;
+  z-index: 10;
 }
 .teacher_name {
   display: flex;
@@ -65,6 +68,7 @@
   position: absolute;
   bottom: 10%;
   left: 10%;
+  z-index: 9;
 }
 .teacher_bt_h {
   font-family: var(--ttdemibold);
