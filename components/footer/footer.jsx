@@ -37,10 +37,10 @@ const footer = () => {
               <div className={styles.foot_social}>
                 <div className={styles.social_link}>
                   <a href="#"> {insta}</a>
-                </div>{" "}
+                </div>
                 <div className={styles.social_link}>
                   <a href="#">{telegram}</a>
-                </div>{" "}
+                </div>
                 <div className={styles.social_link}>
                   <a href="#">{youtube}</a>
                 </div>
@@ -50,12 +50,12 @@ const footer = () => {
               <div className={styles.footnum}>
                 <a href="tel:+99899 999 99 99">{phone}+99899 999 99 99</a>
                 <p> {location} г.Ташкент, Узбекситан</p>
-              </div>{" "}
+              </div>
               <p className={`${styles.foot_link} ${styles.colorwhite} `}>
                 Авторское право © 2023 Proper. Все права защищены.
               </p>
               <div className={styles.cent}>
-                <p>Designed by </p>
+                <p className={styles.foot_link}>Designed by </p>
                 <Image
                   src="/logomazmoon.png"
                   alt="Picture of the author"
@@ -76,28 +76,74 @@ const footer = () => {
                 />
               </div>
               <div className={styles.foot_social}>
-                <div className={styles.social_link}>
+                <a href="#" className={styles.test_link}>
+                  {insta}
+                </a>
+                <a href="#" className={styles.test_link}>
+                  {telegram}
+                </a>
+                <a href="#" className={styles.test_link}>
+                  {youtube}
+                </a>
+
+                {/* <div className={styles.social_link}>
                   <a href="#"> {insta}</a>
-                </div>{" "}
+                </div>
                 <div className={styles.social_link}>
                   <a href="#">{telegram}</a>
-                </div>{" "}
+                </div>
                 <div className={styles.social_link}>
                   <a href="#">{youtube}</a>
-                </div>
+                </div> */}
               </div>
             </div>
-
+            {/* <div className={styles.navLinks_cont}>
+              {navLinks.map((link, index) => {
+                return (
+                  <ul key={index} className={styles.navLinks}>
+                    <Link href={link.path}>
+                      <span className={styles.line}></span>
+                      <li>{link.name}</li>
+                    </Link>
+                  </ul>
+                );
+              })}
+            </div> */}
+            <div className={styles.navLinks_cont}>
+              <Link href={"/"} className={styles.navLinks}>
+                whay s
+              </Link>
+              <span className={styles.line}></span>
+              <Link href={"/"} className={styles.navLinks}>
+                whay s
+              </Link>
+              <span className={styles.line}></span>
+              <Link href={"/"} className={styles.navLinks}>
+                whay s
+              </Link>
+              <span className={styles.line}></span>
+              <Link href={"/"} className={styles.navLinks}>
+                whay s
+              </Link>
+              <span className={styles.line}></span>
+              <Link href={"/"} className={styles.navLinks}>
+                whay s
+              </Link>
+            </div>
             <div className={`${styles.cent} ${styles.src}`}>
               <div className={styles.footnum}>
-                <a href="tel:+99899 999 99 99">{phone}+99899 999 99 99</a>
-                <p> {location} г.Ташкент, Узбекситан</p>
-              </div>{" "}
+                <a href="tel:+99899 999 99 99" className={styles.foot_bt}>
+                  {phone}+99899 999 99 99
+                </a>
+                <p className={styles.foot_bt}>
+                  {location} г.Ташкент, Узбекситан
+                </p>
+              </div>
+              <span className={styles.big_line}></span>
               <div>
-                {" "}
                 <p className={`${styles.foot_link} ${styles.colorwhite} `}>
                   Авторское право © 2023 Proper.
-                </p>{" "}
+                </p>
                 <p className={`${styles.foot_link} ${styles.colorwhite} `}>
                   Все права защищены.
                 </p>

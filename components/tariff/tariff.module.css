@@ -72,6 +72,7 @@
   list-style: none;
   margin-bottom: 32px;
   padding: 0;
+  color: white;
 }
 
 .features li {
@@ -100,13 +101,13 @@
     #56f266 204.89%
   );
 }
-.tariffPlan:hover .sale > svg path {
-  background: linear-gradient(
+.tariffPlan:hover .sale > svg {
+  color: linear-gradient(
     263.67deg,
     #ed2f2f 1.4%,
     #cfab31 101.03%,
     #56f266 204.89%
-  ) !important;
+  );
 }
 .sale_percent {
   font-family: var(--ttinterregular);
@@ -115,6 +116,7 @@
   font-size: 18px;
   line-height: 20px;
   background: linear-gradient(262.1deg, #3686bf -40.82%, #ae00d8 100%);
+  color: white;
   border-radius: 500px;
   padding: 10px 22px;
   border: none;
@@ -172,4 +174,10 @@
   position: absolute;
   top: 50%;
   right: 0;
+}
+@media (max-width: 768px) {
+  .plans {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 }

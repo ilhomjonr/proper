@@ -9,6 +9,7 @@
 .h_who {
   font-family: var(--ttdemibold);
   font-style: normal;
+  color: white;
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
@@ -155,7 +156,7 @@
     display: none;
   }
   .mobile_btn {
-    display: block;
+    display: flex;
   }
   .alls {
     flex-direction: column;

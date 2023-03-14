@@ -1,5 +1,5 @@
 export const navLinks = [
-  { name: "Курс", path: "/" },
+  { name: "Курс", path: "/course" },
   {
     name: "Кариера",
     path: "/about",

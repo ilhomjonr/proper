@@ -12,6 +12,7 @@ import Learning from "components/learn/learn";
 import Teacher from "components/teacher/teacher";
 import Tariff from "components/tariff/tariff";
 import StudentVideos from "components/contactus/contactus";
+import SwiperComponent from "components/swiper/swiper";
 export default function Home() {
   return (
     <>

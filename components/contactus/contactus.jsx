@@ -69,10 +69,8 @@ const ContactUs = () => {
                 onChange={handleNumberChange}
                 ref={phoneInputRef}
               />
-              /*imask react */
-              <div className={styles.sendbtn}>
 
-              
+              <div className={styles.sendbtn}>
                 <ReCAPTCHA
                   sitekey="6LdMUrEkAAAAAFh3HZgk4IOKZuVsgBXBiXn3yRsy"
                   onChange={handleRecaptchaChange}

@@ -21,7 +21,7 @@ const Header = () => {
   const [IsActive, setIsActive] = useState(false);
   return (
     <>
-      <header>
+      <header className={styles.center}>
         <nav className={`container ${styles.container}`}>
           <Image
             src="/logoprop.png"
@@ -35,7 +35,7 @@ const Header = () => {
                 <ul key={index} className={styles.li}>
                   <Link href={link.path} className={styles.linkcont}>
                     <span className={styles.dot}></span>
-                    <li>{link.name}</li>
+                    <li className={styles.nav_link}>{link.name}</li>
                   </Link>
                 </ul>
               );
@@ -43,7 +43,7 @@ const Header = () => {
           </div>
           <div className={styles.cent}>
             <div className={`${styles.current_lang} ${styles.nav_link}`}>
-              {router.locale}
+              Rus
               {chevron}{" "}
               {/* <div className={styles.dropdown}>
                 <nav className={styles.dropdown_menu}>
@@ -66,7 +66,9 @@ const Header = () => {
               </div> */}
               <div></div>
             </div>
-            <button className={styles.btn}>{student} Записаться на курс</button>
+            <button className={`${styles.btn} ${styles.nav_link}`}>
+              {student} Записаться на курс
+            </button>
           </div>
           <div
             className={styles.hamburger}
@@ -78,7 +80,9 @@ const Header = () => {
             <span className={isClicked ? styles.rotate2 : ""}></span>
           </div>
         </nav>
-        <nav className={`container ${styles.navmobile}`}></nav>
+        <nav className={`container ${styles.navmobile}`}>
+          
+        </nav>
       </header>
     </>
   );

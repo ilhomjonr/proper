@@ -4,7 +4,7 @@ import styles from "./forwho.module.css";
 const Forwho = () => {
   return (
     <>
-      <section className={`container `}>
+      <section className={`container `} id="course">
         <div className={styles.container_forwho}>
           <div>
             <p className="h1a">Кому подходит этот курс?</p>

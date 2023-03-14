@@ -4,7 +4,7 @@ import { applicantion } from "public/icons";
 const Hero = () => {
   return (
     <>
-      <div className={` container`}>
+      <div className={`${styles.container}`}>
         <div className={`${styles.cs} ${styles.cont}`}>
           <div>
             <p className={styles.header_h1}>Курс с трудоусторойством</p>
@@ -52,7 +52,7 @@ const Hero = () => {
           </div>
           <div className={styles.headbtns}>
             <button className={`${styles.btn} ${styles.btnleft}`}>
-              {applicantion}{" "}
+              {applicantion}
               <span className={styles.pink}>Ariza topshirish</span>
             </button>
             <button className={`${styles.btn} ${styles.btnright}`}>

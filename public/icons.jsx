@@ -109,8 +109,8 @@ export const insta = (
         y2="6.36341"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#3686BF" />
-        <stop offset="1" stopColor="#AE00D8" />
+        <stop stopColor="currentColor" />
+        <stop offset="1" stopColor="currentColor" />
       </linearGradient>
     </defs>
   </svg>
@@ -144,23 +144,23 @@ export const youtube = (
 );
 export const telegram = (
   <svg
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
+    width="18"
+    height="16"
+    viewBox="0 0 18 16"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      d="M2.89645 10.7964L18.2851 4.14575C19.0088 3.833 19.7929 4.44159 19.6695 5.22023L17.5655 18.4962C17.4355 19.3162 16.4206 19.6299 15.8506 19.0262L12.3977 15.3686C11.7206 14.6514 11.6675 13.5475 12.2727 12.7686L14.7107 9.63084C14.8501 9.45146 14.63 9.21549 14.4414 9.34204L9.59406 12.5939C8.77148 13.1457 7.77341 13.3727 6.79309 13.2309L3.15003 12.704C2.15204 12.5597 1.97083 11.1964 2.89645 10.7964Z"
-      fill="url(#paint0_linear_690_1657)"
+      d="M0.896455 6.79637L16.2851 0.145754C17.0088 -0.166999 17.7929 0.441585 17.6695 1.22023L15.5655 14.4962C15.4355 15.3162 14.4206 15.6299 13.8506 15.0262L10.3977 11.3686C9.72058 10.6514 9.66752 9.54749 10.2727 8.76857L12.7107 5.63084C12.8501 5.45146 12.63 5.21549 12.4414 5.34204L7.59406 8.59387C6.77148 9.14569 5.77341 9.37269 4.79309 9.2309L1.15003 8.70401C0.15204 8.55968 -0.0291716 7.1964 0.896455 6.79637Z"
+      fill="url(#paint0_linear_1305_31)"
     />
     <defs>
       <linearGradient
-        id="paint0_linear_690_1657"
-        x1="27.7649"
-        y1="4.06201"
-        x2="0.558944"
-        y2="8.35619"
+        id="paint0_linear_1305_31"
+        x1="25.7649"
+        y1="0.0620094"
+        x2="-1.44106"
+        y2="4.35619"
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#3686BF" />
@@ -171,7 +171,7 @@ export const telegram = (
 );
 export const applicantion = (
   <svg
-    color="currentColorw"
+    color="currentColor"
     width="22"
     height="22"
     viewBox="0 0 22 22"
@@ -193,7 +193,7 @@ export const applicantion = (
         y2="4.94067"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#3686BF" />
+        <stop stopColor="currentColor" />
         <stop offset="1" stopColor="#AE00D8" />
       </linearGradient>
     </defs>
@@ -289,7 +289,7 @@ export const gift = (
         y2="9.99605"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#3686BF" />
+        <stop stopColor="currentColor" />
         <stop offset="1" stopColor="#AE00D8" />
       </linearGradient>
     </defs>
