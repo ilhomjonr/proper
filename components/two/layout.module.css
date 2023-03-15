@@ -88,6 +88,7 @@
   top: 0;
   background-color: green;
   border: 2px solid #4caf50;
+  height: 24px;
 }
 .ps {
   font-size: 32px;
