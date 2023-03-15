@@ -4,7 +4,7 @@ import Image from "next/image";
 const Learning = () => {
   return (
     <section>
-      <div className="container">
+      <div>
         <div className={styles.learn_main}>
           <div>
             <p className="h1a">Программа обучения</p>

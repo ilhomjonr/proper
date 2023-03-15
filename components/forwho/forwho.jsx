@@ -4,7 +4,7 @@ import styles from "./forwho.module.css";
 const Forwho = () => {
   return (
     <>
-      <section className={`container `} id="course">
+      <section className={` `} id="course">
         <div className={styles.container_forwho}>
           <div>
             <p className="h1a">Кому подходит этот курс?</p>
@@ -37,13 +37,6 @@ const Forwho = () => {
               </div>
             </div>
             <div>
-              <div className={styles.main_wrap}>
-                <div className={styles.border1}></div>
-                <div className={styles.border2}></div>
-                <button className={styles.writetogroup}>
-                  <p>Записаться</p>
-                </button>
-              </div>
               <div>
                 <button className={`btn ${styles.mobile_btn}`}>
                   {applicantion} <span className="pinkp">Записаться</span>

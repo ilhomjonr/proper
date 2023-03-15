@@ -6,13 +6,14 @@ const inter = Inter({ subsets: ["latin"] });
 import Header from "../components/header/header.jsx";
 import Footer from "../components/footer/footer";
 import Hero from "../components/hero/hero";
-import CenterChildren from "components/layout";
+import CenterChildren from "components/two/layout";
 import Forwho from "components/forwho/forwho";
 import Learning from "components/learn/learn";
 import Teacher from "components/teacher/teacher";
 import Tariff from "components/tariff/tariff";
 import StudentVideos from "components/contactus/contactus";
 import SwiperComponent from "components/swiper/swiper";
+import Twoco from "components/two/layout";
 export default function Home() {
   return (
     <>
@@ -23,17 +24,16 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Header />
+        {/* <Header /> */}
 
         <main className={styles.main}>
-          <Hero />
-          <Forwho />
-          <Learning />
-          <Teacher />
+          {/* <Hero /> */}
+          <Twoco />
+          {/* <Teacher />
           <Tariff />
-          <StudentVideos />
+          <StudentVideos /> */}
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
